@@ -1,4 +1,4 @@
 profile_with_parallax_scroll
 ============================
 
-Profile page using parallax scroll on cover photo. CSS using Twitter Bootstrap
+HTML Profile page using parallax scroll on cover photo. Designed using CSS by Twitter Bootstrap.
