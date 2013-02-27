@@ -1,0 +1,12 @@
+html,body{
+  background: rgba(161, 216, 230, 0.4);
+}
+div#content {
+  padding: 20px;
+}
+.single-blog {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,213 @@
+.body {
+	background-color: whiteSmoke;
+}
+
+.post-wrapper {
+	text-align: center;
+}
+
+.post {
+	position: relative;
+	width: 450px;
+	display: block;
+	margin: 30px auto 20px auto;
+	background: white;
+	text-align: left;
+	word-wrap: break-word;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px #A6A6A4;
+}
+
+.post p {
+	margin-bottom: 0;
+}
+
+.post .post-like {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	height: 40px;
+	width: 70px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px white;
+}
+
+.post .post-like:hover {
+	box-shadow: 0px 0px 25px 0px white;
+}
+
+.post-like .post-like-count {
+	float: right;
+	margin-top: 9px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.post-like .post-like-icon {
+	float:left;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 100% 100%;
+}
+
+.post-play {
+	position: absolute;
+	top: 420px;
+	left: 175px;
+	width: 48px;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+	z-index: 5;
+}
+
+.post-play h4 {
+	position: absolute;
+	top: 6px;
+	left: 22px;
+	z-index: 6;
+}
+
+.post-play .icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 12px;
+	right: 15px;
+}
+
+.post .post-img-wrapper {
+	position: relative;
+	width: 450px;
+	height: 450px;
+}
+
+.post-img-wrapper .post-img {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 450px;
+	height: 450px;
+	background: black;
+	border-radius: 5px 5px 0 0;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.post .post-info {
+	position: relative;
+	height: 53px;
+	padding: 10px 0 0 62px;
+	background-color: whiteSmoke;
+	box-shadow: inset 0 10px 8px -12px black;
+}
+
+.post-info .avatar {
+	position: absolute;
+	top: 10px;
+	left: 13px;
+}
+
+.post .avatar img {
+	border-radius: 3px;
+}
+
+.post-info .play-count {
+	position: absolute;
+	bottom: 13px;
+	right: 14px;
+}
+
+.post .post-detail {
+	box-shadow: inset 0 10px 8px -12px black;
+}
+
+.post-detail .post-comment .comment-item {
+	position: relative;
+	padding: 16px 120px 8px 64px;
+	border-top: 1px solid #E2E2E1;
+}
+
+.post-detail .post-comment .comment-item:hover {
+	background-color: whiteSmoke;
+}
+
+.comment-item .avatar {
+	position: absolute;
+	top: 22px;
+	left: 13px;
+}
+
+.comment-item .comment-creator {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	display: inline-block;
+}
+
+.comment-item .comment-play {
+	position: relative;
+	width: 40px;
+	height: 24px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 17px;
+	z-index: 5;
+}
+
+.comment-play h5 {
+	float: left;
+	margin-top: 3px;
+}
+
+.comment-play .icon {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 9px;
+	right: 15px;
+}
+
+.comment-item .comment-like-icon {
+	position: absolute;
+	bottom: 20px;
+	right: 80px;
+	width: 18px;
+	height: 18px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 100% 100%;
+}
+
+.comment-item .comment-reply-icon {
+	position: absolute;
+	bottom: 20px;
+	right: 25px;
+	width: 18px;
+	height: 18px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 100% 100%;
+}
+
+.comment-item .comment-like-icon:hover, .comment-item .comment-reply-icon:hover {
+	width: 21px;
+	height: 21px;
+}
+
+.comment-item .comment-like-icon:active, .comment-item .comment-reply-icon:active {
+	width: 18px;
+	height: 18px;
+}
+
+.comment-item .comment-like-count {
+	position: absolute;
+	right: 60px;
+	bottom: 20px;
+}
+
+

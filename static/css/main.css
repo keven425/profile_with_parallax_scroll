@@ -1,0 +1,26 @@
+div#MainContent {
+  position: fixed;
+  top: 30%;
+  left: 15%;
+  font-size: 30px;
+}
+div#LoginPage {
+  position: fixed;
+  top: 32%;
+  left: 55%;
+}
+input#UsernameInput {
+  height: 19px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+input#PasswordInput {
+  margin-right: 1px;
+  height: 19px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+div#NewToSoundBlog {
+  margin-bottom: 5px;
+}

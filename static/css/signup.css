@@ -1,0 +1,36 @@
+div#SignupContent {
+  position: fixed;
+  top: 25%;
+  left: 40%;
+}
+input#UsernameInput {
+  margin-top: 10px;
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+input#PasswordInput {
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+input#ConfirmPasswordInput {
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+input#FirstNameInput {
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+input#LastNameInput {
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+input#EmailInput {
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
